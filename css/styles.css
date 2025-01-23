@@ -89,13 +89,13 @@ img {
   padding-bottom: 24px;
 }
 
-.active {
+.header-link .active {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.active:hover::after {
+.header-link .active:hover::after {
   content: "";
   border-radius: 2px;
   height: 4px;
